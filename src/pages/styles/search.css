@@ -1,0 +1,55 @@
+#sectSearch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+#searchEmpty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bigCard{
+    width: 45vw;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.bigCard img{
+    width: 100%;
+    height: 25vw; 
+}
+
+@media (min-width: 768px) {
+    .bigCard{
+        width: 45vw;
+    }
+    .bigCard img{        
+        height: 25vw;
+    }    
+}
+
+@media (min-width: 880px) {
+    .bigCard{
+        width: 30vw;
+    }
+    .bigCard img{        
+        height: 20vw;
+    }                
+}
+
+@media (min-width: 1100px) {
+    .bigCard{
+        width: 24vw;
+    }
+    .bigCard img{        
+        height: 17vw;
+    }    
+}

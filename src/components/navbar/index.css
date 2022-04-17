@@ -1,0 +1,148 @@
+#basic-nav-dropdown + div{    
+    background: rgba(33, 37, 41, 1) !important;    
+}
+
+.navbar .container-fluid{
+    justify-content: space-around;
+}
+
+.navLinkColor{
+    color: rgba(255,255,255,.55);
+}
+
+.btnNavCart{
+    font-size: 1.4rem;
+    color: rgba(255,255,255,.55);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.posRelative{
+    position: relative;
+}
+
+#infoBar{
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    left: 0;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border: 1px solid white;      
+    transform: translateY(-50px);
+    animation: infoBar 0.5s ease forwards;
+}
+
+@keyframes infoBar{
+    to{
+        transform: translateY(0);
+    }
+}
+
+#cartInfo{
+    display: block;   
+    position: absolute;
+    top: -40px;
+    right: -20px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%; 
+    text-align: center;
+    font-size: 12pt;
+}
+
+.searchBar{
+    visibility: visible;
+    width: 40vw
+}
+
+.searchBar input, #searchBox input{
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+.btnNavSearch{
+    display: none;
+    color: rgba(255,255,255,.55);
+    margin-left: 5px;
+    margin-right: 5px;
+    background: transparent;
+    border-color: transparent;
+}
+
+#searchBox .iconBack{
+    cursor: pointer;    
+    top: 19px;
+    left: 10px;
+    font-size: 1.2rem;
+}
+
+.searchBar .iconSearch{
+    top: 12px;
+    left: 5px;
+}
+
+#searchBox input{
+    width: 95%;
+    margin-left: 5px;
+    margin-top: 10px;        
+}
+
+#searchBox{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1031;
+    width: 100vw;
+    height: 120%;
+    top: 0;
+    left: 0;    
+    background: white;
+}
+
+#searchHead, #searchContent{
+    transition: all 800ms;
+    width: 100%;    
+    font-family: 'Ropa Sans', sans-serif;
+    outline: none;
+    color: #999;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;    
+    font-size: 16px
+}
+
+#searchHead, #searchContent li{
+    padding: 5px;
+}
+
+#searchContent{
+    cursor: pointer;    
+    color: #333;
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    font-size: .875rem;
+}
+
+#searchContent li:hover{    
+    background: #0099CC;    
+}
+
+@media (max-width: 768px) {
+    .btnNavSearch{
+        display: block;
+        background: transparent;
+        border-color: transparent;
+    }
+    .searchBar{
+        visibility: hidden;
+        width: 25vw;
+    }
+}

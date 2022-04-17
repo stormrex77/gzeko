@@ -1,0 +1,52 @@
+.navLinkColor{
+    color: rgba(255,255,255,.55);
+}
+
+.setPointer{
+    cursor: pointer;
+}
+
+.scrollOverflow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 0px;    
+    width: 100%;
+}
+
+.posAbsolute{position: absolute;}
+
+.posRelative{position: relative;}
+
+.card{cursor: pointer;}
+
+.card-body{
+    padding: .5rem;
+    margin-top: -10px;
+}
+
+.card button{
+    margin-bottom: 5px;
+    width: 95%; 
+}
+
+#sectItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.smallCard{
+    width: 180px;
+    margin-right: 10px;
+    line-height: 1;
+    font-size: .875rem;
+}
+
+.smallCard img{
+    height: 150px;
+}

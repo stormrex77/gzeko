@@ -1,0 +1,58 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  
+  .carousel-control-prev, .carousel-control-next{
+    display: none;
+  }
+  
+  .carousel-indicators button{
+    height: 20px !important;
+    width: 20px !important;    
+    border-radius: 100%;
+  }
+  
+  .carousel-inner{
+    width: 50vw;
+  }
+  
+  .carousel-inner img{  
+    width: 50vw;
+    height: 50vh;
+  }
+  
+  .bigScreenCarousel{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    
+  }
+  .bigScreenCarousel img{
+    width: 49vw;
+    height: 49vh;
+    filter: blur(7px);
+  }
+  
+  
+  @media (max-width: 680px) {    
+    .bigScreenCarousel img{
+        width: 45vw;
+        height: 30vh;        
+    }
+    
+    .carousel-inner{
+        width: 100%;
+    }
+    
+    .carousel-inner img{
+        width: 100%;
+        height: 40vh;
+    }
+    
+  }
+  
