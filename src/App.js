@@ -20,8 +20,8 @@ return (
     <Router>    
     <Routes>
       <Route exact path='/' element={<Home/>} />      
-      <Route exact path='/about' element={<About/>} />
-      <Route exact path='/profile' element={<Profile/>} />
+      <Route path='/about' element={<About/>} />
+      <Route path='/profile' element={<Profile/>} />
       <Route path='/profile/become-a-seller' element={<BAS/>} />
       <Route path='/profile/add-item' element={<AddItem/>} />
       <Route path='/profile/edit-item' element={<EditItem/>} />
