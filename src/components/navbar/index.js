@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { Navbar, Container, Nav, Form, FormControl, NavDropdown, Button } from 'react-bootstrap';
 import { FaGamepad, FaBluetooth, FaCamera, FaFilter, FaPlay, FaLaptop, FaPhone, FaUsb, FaSearch, FaShoppingCart, FaArrowLeft} from 'react-icons/fa'
 import './index.css';
@@ -109,7 +109,8 @@ return (
 	<>
 	<Navbar collapseOnSelect bg="dark" variant='dark' expand="md" fixed='top'>
 		<Container fluid>
-			<Navbar.Brand href="/">
+			<Link to={"/"}>
+			<Navbar.Brand>
 				<img
 					alt=""
 					src={require('../../images/camera-drone.webp')}
@@ -118,6 +119,7 @@ return (
 					className="d-inline-block align-top"
 				/>{' '}
 			Gzeko</Navbar.Brand>
+			</Link>
 
 			<div className='searchBar posRelative'>
 			<Form className="d-flex">
