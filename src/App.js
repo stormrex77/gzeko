@@ -19,8 +19,7 @@ return (
   <>
     <Router>    
     <Routes>
-    <Route exact path='/' element={<Home/>} />
-      <Route exact path='gzeko/' element={<Home/>} />
+      <Route exact path='/' element={<Home/>} />      
       <Route path='/about' element={<About/>} />
       <Route path='/profile' element={<Profile/>} />
       <Route path='/profile/become-a-seller' element={<BAS/>} />
@@ -30,7 +29,19 @@ return (
       <Route path='/view-item' element={<ViewItem/>} />
       <Route path='/accounts/signup' element={<SignUp/>} />
       <Route path='/accounts/signin' element={<SignIn/>} />
-      <Route path='/search' element={<Search/>} />      
+      <Route path='/search' element={<Search/>} />
+
+      <Route exact path='gzeko/' element={<Home/>} />      
+      <Route path='gzeko/about' element={<About/>} />
+      <Route path='gzeko/profile' element={<Profile/>} />
+      <Route path='gzeko/profile/become-a-seller' element={<BAS/>} />
+      <Route path='gzeko/profile/add-item' element={<AddItem/>} />
+      <Route path='gzeko/profile/edit-item' element={<EditItem/>} />
+      <Route path='gzeko/shopping-cart' element={<Cart/>} />
+      <Route path='gzeko/view-item' element={<ViewItem/>} />
+      <Route path='gzeko/accounts/signup' element={<SignUp/>} />
+      <Route path='gzeko/accounts/signin' element={<SignIn/>} />
+      <Route path='gzeko/search' element={<Search/>} />
     </Routes>
     </Router>
   </>
