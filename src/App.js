@@ -33,7 +33,7 @@ return (
 
       <Route exact path='gzeko/' element={<Home/>} />      
       <Route path='gzeko/about' element={<About/>} />
-      <Route path='gzeko/profile' element={<Profile/>} />
+      <Route path='gzeko/profile/' element={<Profile/>} />
       <Route path='gzeko/profile/become-a-seller' element={<BAS/>} />
       <Route path='gzeko/profile/add-item' element={<AddItem/>} />
       <Route path='gzeko/profile/edit-item' element={<EditItem/>} />
