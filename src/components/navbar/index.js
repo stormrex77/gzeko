@@ -49,7 +49,7 @@ const NavBar = () => {
 				let path = "/search?" + search;				
 				if (!isEmpty(search)){					
 					navigate(path);
-					window.location.reload();
+					//window.location.reload();
 				}				
 			}catch(error){
 				alert("Something went wrong! "+error);
