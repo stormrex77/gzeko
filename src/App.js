@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+/*import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';*/
 import Home from './pages/';
 import About from './pages/about';
 import AddItem from './pages/addItem';
@@ -12,9 +12,21 @@ import ViewItem from './pages/viewItem';
 import SignUp from './pages/signup';
 import SignIn from './pages/signin';
 import Search from './pages/search';
+import { Route } from 'react-router-dom';
+
+class App extends Component{
+  render(){
+    return(
+      <div>
+        <Route exact path='/' component={<Home/>} />
+        <Route path='/about' element={<About/>} />        
+      </div>
+    );
+  }
+}
 
 
-function App() {
+/*function App() {
 return (
   <>
     <Router>    
@@ -46,6 +58,6 @@ return (
     </Router>
   </>
 );
-}
+}*/
 
 export default App;
