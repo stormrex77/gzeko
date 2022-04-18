@@ -109,7 +109,7 @@ return (
 	<>
 	<Navbar collapseOnSelect bg="dark" variant='dark' expand="md" fixed='top'>
 		<Container fluid>
-			<Link to={"/"}>
+			<Link to={"/"} className="dormantLink">
 			<Navbar.Brand>
 				<img
 					alt=""
@@ -139,7 +139,7 @@ return (
 			</div>
 
 			<Button className='btnNavSearch' onClick={expandSearch}><FaSearch/></Button>
-			<Button className="btnNavCart btn-dark" href='/shopping-cart'>
+			<Button className="btnNavCart btn-dark" href='#/shopping-cart'>
 				<FaShoppingCart/>
 				<div className='posRelative'>
 					<div className="bg-danger text-light" id="cartInfo"></div>
@@ -150,7 +150,7 @@ return (
 			<Navbar.Toggle aria-controls="basic-navbar-nav"/>
 			<Navbar.Collapse id="basic-navbar-nav">
 			<Nav className="me-auto">
-				<Nav.Link href="#home" style={{width: '80px'}}><FaFilter/> Filter</Nav.Link>				
+				<Nav.Link href="#home" style={{width: '80px'}}><FaFilter/> Filter</Nav.Link>
 				<NavDropdown title="Accounts" id="basic-nav-dropdown">
 					<NavDropdown.Item className='navLinkColor' href="/accounts/signup">Sign Up</NavDropdown.Item>
 					<NavDropdown.Item className='navLinkColor' href="/accounts/signin">Sign In</NavDropdown.Item>					
