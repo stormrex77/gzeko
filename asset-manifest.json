@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gzeko/static/css/main.af62e3e9.css",
-    "main.js": "/gzeko/static/js/main.5dd4c481.js",
+    "main.js": "/gzeko/static/js/main.f44bfc5b.js",
     "static/js/787.3a55bfeb.chunk.js": "/gzeko/static/js/787.3a55bfeb.chunk.js",
     "static/media/camera.jpeg": "/gzeko/static/media/camera.a234e161518a8af4a3e4.jpeg",
     "static/media/speaker.webp": "/gzeko/static/media/speaker.e9b855ee899d0e05d552.webp",
@@ -9,11 +9,11 @@
     "static/media/apple-phones.webp": "/gzeko/static/media/apple-phones.27f6b0923c2202adb1d3.webp",
     "index.html": "/gzeko/index.html",
     "main.af62e3e9.css.map": "/gzeko/static/css/main.af62e3e9.css.map",
-    "main.5dd4c481.js.map": "/gzeko/static/js/main.5dd4c481.js.map",
+    "main.f44bfc5b.js.map": "/gzeko/static/js/main.f44bfc5b.js.map",
     "787.3a55bfeb.chunk.js.map": "/gzeko/static/js/787.3a55bfeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af62e3e9.css",
-    "static/js/main.5dd4c481.js"
+    "static/js/main.f44bfc5b.js"
   ]
 }
