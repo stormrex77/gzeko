@@ -23,7 +23,7 @@ return (
         <div>
             <ul className="form-header">
                 <li><label><FaLock/> LOGIN</label></li>
-                <li><a className='form-header-new' href='/accounts/signup'><label><FaRegAddressBook/> Register</label></a></li>
+                <li><a className='form-header-new' href='#/accounts/signup'><label><FaRegAddressBook/> Register</label></a></li>
             </ul>
         </div>
 

@@ -28,7 +28,7 @@ return (
         <div>
             <ul className="form-header">
                 <li><label><FaRegAddressBook/> REGISTER</label></li>
-				<li><a className='form-header-new' href="/accounts/signin"><label><FaLock/> LOGIN</label></a></li>
+				<li><a className='form-header-new' href="#/accounts/signin"><label><FaLock/> LOGIN</label></a></li>
             </ul>
         </div>
 

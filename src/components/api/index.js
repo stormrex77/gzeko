@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 let hostname = window.location.hostname;
 
 function getUrl(target){
-    return "http://" + hostname + "/gzekodata/" + target; 
+    return "https://" + hostname + "/gzekodata/" + target; 
 }
 
 function addCart(data){

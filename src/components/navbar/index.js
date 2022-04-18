@@ -49,7 +49,7 @@ const NavBar = () => {
 				let path = "/search?" + search;				
 				if (!isEmpty(search)){					
 					navigate(path);
-					//window.location.reload();
+					window.location.reload();
 				}				
 			}catch(error){
 				alert("Something went wrong! "+error);
@@ -152,8 +152,8 @@ return (
 			<Nav className="me-auto">
 				<Nav.Link href="#home" style={{width: '80px'}}><FaFilter/> Filter</Nav.Link>
 				<NavDropdown title="Accounts" id="basic-nav-dropdown">
-					<NavDropdown.Item className='navLinkColor' href="/accounts/signup">Sign Up</NavDropdown.Item>
-					<NavDropdown.Item className='navLinkColor' href="/accounts/signin">Sign In</NavDropdown.Item>					
+					<NavDropdown.Item className='navLinkColor' href="#/accounts/signup">Sign Up</NavDropdown.Item>
+					<NavDropdown.Item className='navLinkColor' href="#/accounts/signin">Sign In</NavDropdown.Item>					
 				</NavDropdown>
 				<NavDropdown title="Categories" id="basic-nav-dropdown">
 					<NavDropdown.Item className='navLinkColor' href="#action/3.1"><FaPlay style={{margin: '2px'}}/> Audio/Video</NavDropdown.Item>
