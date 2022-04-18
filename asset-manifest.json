@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/gzeko/static/css/main.af62e3e9.css",
-    "main.js": "/gzeko/static/js/main.e43598eb.js",
+    "main.css": "/gzeko/static/css/main.e1da635d.css",
+    "main.js": "/gzeko/static/js/main.c0b243aa.js",
     "static/js/787.3a55bfeb.chunk.js": "/gzeko/static/js/787.3a55bfeb.chunk.js",
-    "static/media/camera.jpeg": "/gzeko/static/media/camera.a234e161518a8af4a3e4.jpeg",
     "static/media/speaker.webp": "/gzeko/static/media/speaker.e9b855ee899d0e05d552.webp",
     "static/media/camera-drone.webp": "/gzeko/static/media/camera-drone.ecc2b2ae2378ba66a041.webp",
-    "static/media/apple-phones.webp": "/gzeko/static/media/apple-phones.27f6b0923c2202adb1d3.webp",
     "index.html": "/gzeko/index.html",
-    "main.af62e3e9.css.map": "/gzeko/static/css/main.af62e3e9.css.map",
-    "main.e43598eb.js.map": "/gzeko/static/js/main.e43598eb.js.map",
+    "main.e1da635d.css.map": "/gzeko/static/css/main.e1da635d.css.map",
+    "main.c0b243aa.js.map": "/gzeko/static/js/main.c0b243aa.js.map",
     "787.3a55bfeb.chunk.js.map": "/gzeko/static/js/787.3a55bfeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af62e3e9.css",
-    "static/js/main.e43598eb.js"
+    "static/css/main.e1da635d.css",
+    "static/js/main.c0b243aa.js"
   ]
 }
